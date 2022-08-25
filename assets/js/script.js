@@ -1,5 +1,5 @@
 function loadProgram() {
-    fetch('../../program.json')
+    fetch('./program.json')
     .then(response => response.json())
     .then(data => {
         document.getElementById('data-program').innerHTML = ""
