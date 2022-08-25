@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #eef0f1; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center; }
+
+header {
+  background-color: #a5403d;
+  color: #fff;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9999; }
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.navbar-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+.navbar ul li::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background: #f4cec4;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s; }
+
+.navbar ul li:hover::after {
+  width: 100%; }
+
+.content-home {
+  width: 100%;
+  position: absolute;
+  top: 50%; }
+
+.content-home h1 {
+  font-family: 'Satisfy';
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+.content-home p {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #fff; }
+
+.content .about {
+  float: left;
+  width: 60%;
+  height: 100%; }
+
+.content .program {
+  float: right;
+  width: 40%;
+  height: 100%; }
+
+.content {
+  height: 1000px; }
+
+.content h1 {
+  text-align: center;
+  padding: 100px 0 50px 0;
+  font-family: 'DynaPuff';
+  font-size: 3rem; }
+
+.content p {
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.5rem; }
+
+.container {
+  margin-top: 100px; }
+
+.container h2 {
+  margin-bottom: 30px;
+  font-family: 'DynaPuff';
+  font-size: 2rem;
+  text-align: center; }
+
+.row {
+  margin-bottom: 20px; }
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto; }
+
+.card img {
+  width: 400px;
+  height: 230px; }
+
+.card-body h4 {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.card-body p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 30px; }
+
+.box-form {
+  margin: 0 auto;
+  width: 30%; }
+
+form {
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+.label {
+  padding-left: 3px; }
+
+.input-text {
+  height: 30px; }
+
+.input-form {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%; }
+
+.button {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: #a5403d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer; }
+
+footer {
+  background-color: #a5403d;
+  width: 100%;
+  text-align: center;
+  color: #f4cec4;
+  bottom: 0;
+  padding: 15px;
+  margin-top: 50px; }
+
+footer a {
+  text-decoration: none;
+  color: #fff; }
+
+.content-porto {
+  margin: 80px auto;
+  width: 100%;
+  height: 1500px; }
+
+.content-porto > h1 {
+  text-align: center;
+  padding: 50px;
+  font-family: 'DynaPuff';
+  font-size: 3rem; }
+
+.content-porto p, .content-porto h3 {
+  margin: 15px 0; }
+
+.box {
+  margin: 0 auto;
+  width: 1000px;
+  height: 80%; }
+
+.box > .box-left {
+  float: left;
+  padding: 40px 0;
+  width: 40%;
+  height: 100%;
+  background-color: #a5403d;
+  color: #fff; }
+
+.box > .box-right {
+  float: right;
+  padding: 40px 0;
+  width: 60%;
+  height: 100%;
+  background-color: #eed3cc; }
+
+.box-left > .foto {
+  margin: 0 auto;
+  width: 80%;
+  height: 400px;
+  background-color: #cfd5da; }
+
+.box-left .subtitle-cv {
+  margin-top: 40px; }
+
+.foto img {
+  width: 100%;
+  height: 100%; }
+
+.subtitle-cv {
+  margin: 0 40px;
+  font-weight: 600;
+  font-size: 2rem; }
+
+.subtitle-cv .fa {
+  width: 40px; }
+
+.label-cv {
+  padding: 0 40px;
+  font-weight: 600; }
+
+.content-label {
+  margin: 15px 0;
+  padding: 0 40px;
+  list-style: none; }
+
+.content-label .fa {
+  width: 30px; }
+
+.box-right ul {
+  margin-bottom: 20px; }
+
+hr {
+  margin: 0 40px 20px 40px; }
+
+.edu, .expe {
+  margin: 0 60px; }
+
+.skills {
+  margin: 0 60px;
+  list-style: none; }

@@ -1,0 +1,16 @@
+{
+    "program": [
+        {
+            "name": "Talent as a Services",
+            "img": "assets/img/program1.png"
+        },
+        {
+            "name": "Training as a Services",
+            "img": "assets/img/program2.png"
+        },
+        {
+            "name": "Enigma Camp 2.0",
+            "img": "assets/img/program3.png"
+        }
+    ]
+}
